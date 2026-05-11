@@ -47,65 +47,69 @@ Generates responses
 Entry point of the application:
 
 - Starts the weather agent
-Handles user interaction
-Runs the application loop
-🛠️ Tech Stack
-Technology	Purpose
-Python	Core programming language
-AI Agent Logic	Query handling
-Weather APIs	Fetch weather data
-⚙️ Installation
+- Handles user interaction
+- Runs the application loop
+  
+# 🛠️ Tech Stack
+- Technology	Purpose
+- Python	Core programming language
+- AI Agent Logic	Query handling
+- Weather APIs	Fetch weather data
+  
+## ⚙️ Installation
+
 1. Clone the repository
+```
 git clone https://github.com/pranjalisr/weather-prediction.git
 cd weather-prediction
+```
 2. Create virtual environment
+ ```
 python -m venv venv
-
+ ```
 Activate it:
 
 Windows
+```
 venv\Scripts\activate
+```
 macOS/Linux
+```
 source venv/bin/activate
+```
 3. Install dependencies
+```
 pip install -r requirements.txt
-
+```
 If requirements.txt is not available, manually install required packages.
 
-▶️ Running the Project
+## ▶️ Running the Project
 
 Run the application using:
-
+```
 python py/weather_agent/main.py
+```
 💬 Example Usage
+```
 Enter city: Delhi
+```
 
 Output:
-
+```
 Current weather in Delhi:
 Temperature: 32°C
 Condition: Cloudy
 Humidity: 71%
-🚀 Future Improvements
-Add voice assistant support
-Add GUI dashboard
-Add weather forecasting
-Add multi-city comparison
-Add AI chat interface
-Deploy as web application
-Add weather alerts and notifications
-🌍 Use Cases
-Weather monitoring
-AI assistant integration
-Learning Python agents
-Beginner AI projects
-API integration practice
-👩‍💻 Author
+```
 
-Pranjali Srivastava
+# 🌍 Use Cases
+- Weather monitoring
+- AI assistant integration
+- Learning Python agents
+- Beginner AI projects
+- API integration practice
 
-GitHub: @pranjalisr
 
-📄 License
+# 📄 License
 
 This project is open-source and available under the MIT License.
